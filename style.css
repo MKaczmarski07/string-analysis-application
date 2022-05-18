@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #151515;
+}
+
+#container{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+}
+form{
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    font-size: 1.5em;
+    width: 23rem;
+    background-color: #252525;
+    outline: none;
+    border: .1em solid #1e1e1e;
+    color: #e1e1e1;
+}
+
+#output{
+    color: #e1e1e1;
+    margin-top: 2em;
+    font-size: 1.5em;
+}
